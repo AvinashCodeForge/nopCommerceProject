@@ -1,11 +1,11 @@
 import pytest
-import time
 from PageObject.LoginPage import LoginPage
 from PageObject.AddCustomerPage import AddCustomer
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 import string
 import random
+
 
 class Test_003_AddCustomer:
     baseURL = ReadConfig.getApplicationURL()
@@ -15,9 +15,9 @@ class Test_003_AddCustomer:
 
     @pytest.mark.sanity
     @pytest.mark.regression
-    def test_addCustomer(self,setup):
+    def test_addCustomer(self, setup):
         self.logger.info("************* Test_003_AddCustomer **********")
-        self.driver=setup
+        self.driver = setup
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
 
