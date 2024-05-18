@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef01fb9c-0d94-499b-b005-45fdf48f2759" name="Changes" comment="nopCommerce">
-      <change afterPath="$PROJECT_DIR$/PageObject/LoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/AddCustomerPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/SearchCustomerPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestData/LoginData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_addCustomer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_searchCustomerByEmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_searchCustomerByName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/readProperties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/LoginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +61,11 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Avinash\PycharmProjects\nopCommerce\TestData\" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716040519147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nopCommerce">
+      <option name="closed" value="true" />
+      <created>1716040788737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716040788737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

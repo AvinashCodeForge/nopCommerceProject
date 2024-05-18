@@ -5,7 +5,7 @@ class LoginPage:
     button_login_xpath = "//input[@value='Log in']"
     link_logout_linktext = "Logout"
 
-    def __init__(self,driver):
+    def __init__(self, driver):
         self.driver=driver
 
     def setUserName(self, username):
