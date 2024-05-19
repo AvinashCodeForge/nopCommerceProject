@@ -6,6 +6,7 @@ from PageObject.SearchCustomerPage import SearchCustomer
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
+
 class Test_SearchCustomerByEmail_004:
     baseURL = ReadConfig.getApplicationURL()
     username = ReadConfig.getUseremail()
@@ -13,9 +14,9 @@ class Test_SearchCustomerByEmail_004:
     logger = LogGen.loggen()  # Logger
 
     @pytest.mark.regression
-    def test_searchCustomerByEmail(self,setup):
+    def test_searchCustomerByEmail(self, setup):
         self.logger.info("************* SearchCustomerByEmail_004 **********")
-        self.driver=setup
+        self.driver = setup
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
 
@@ -36,7 +37,7 @@ class Test_SearchCustomerByEmail_004:
         searchcust.setEmail("victoria_victoria@nopCommerce.com")
         searchcust.clickSearch()
         time.sleep(5)
-        status=searchcust.searchCustomerByEmail("victoria_victoria@nopCommerce.com")
+        status = searchcust.searchCustomerByEmail("victoria_victoria@nopCommerce.com")
         self.driver.close()
-        assert True==status
+        assert True == status
         self.logger.info("***************  TC_SearchCustomerByEmail_004 Finished  *********** ")
